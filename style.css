@@ -24,7 +24,7 @@ ul {
     flex: 1 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 280px;
+    padding: 0px 200px;
 }
 
 .header-logo {
@@ -34,7 +34,7 @@ ul {
 .top {
     display: flex;
     justify-content: space-between;
-    padding: 50px 280px 80px;
+    padding: 50px 200px 80px;
     align-items: center;
 }
 .top-primary {
@@ -63,7 +63,7 @@ ul {
 }
 
 .middle {
-    padding: 0px 280px;
+    padding: 0px 200px;
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
@@ -96,7 +96,7 @@ ul {
     padding: 50px 0;
 }
 .quote {
-    padding: 0px 280px;
+    padding: 0px 200px;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -105,7 +105,7 @@ ul {
 }
 
 .author {
-    padding: 0px 280px;
+    padding: 0px 200px;
     font-weight: 900;
     font-size: 25px;
     display: flex;
@@ -116,10 +116,15 @@ ul {
     color: white;
     background-color: #3882f6;
     display: flex;
-    margin: 100px 500px;
-    padding: 70px 0;
+    margin: auto;
+    padding: 70px 100px;
     border-radius: 12px;
     justify-content: space-evenly;
+    margin: 100px auto;
+}
+
+.action-text{
+    flex: 1 0 auto;
 }
 
 .action button {
@@ -130,6 +135,7 @@ ul {
     padding: 6px 20px;
     font-weight: 700;  
     font-size: 20px;
+    margin: 0 50px;
 }
 
 .action-button{
@@ -143,13 +149,17 @@ ul {
     font-weight: 600;
 }
 .action-para {
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
+    overflow-wrap: break-word;
+
 }
 
 .footer {
     background-color: #1f2937;
     color: white;
-    padding: 30px 280px;
+    padding: 30px 200px;
     display: flex;
     justify-content: center;
 }
@@ -160,7 +170,7 @@ img {
     width: 350px; 
 }
 .middle-images img {
-    width: 200px;
+    width: 250px;
     border-radius: 10px;
 }
 

@@ -61,3 +61,12 @@ img .middle {
     display: flex;
     justify-content: flex-end;
 }
+
+.action {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}

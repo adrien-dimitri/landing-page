@@ -5,3 +5,7 @@ In this project, I will attempt to deisgn a webpage from scratch with all the sk
 throught TOP (and of course with the help of Google)
 
 Photo by Noah Munivez from Pexels
+Photo by Miles Hardacre from Pexels
+Photo by Asad Photo Maldives from Pexels
+Photo by Josh Sorenson from Pexels
+Photo by Vincent Gerbouin from Pexels

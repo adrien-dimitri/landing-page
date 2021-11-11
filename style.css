@@ -27,11 +27,11 @@ ul {
 
 img {
     width: 150px;
-    justify-content: center;
 }
 img .middle {
     width: 50px;
 }
+
 .top {
     display: flex;
 }

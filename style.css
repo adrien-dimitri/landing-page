@@ -1,5 +1,5 @@
 *{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -71,11 +71,23 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+.middle-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 .middle-images {
     display: inline-flex;
     justify-content: space-around;
+    
 }
-
+.middle-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#4a4a4a;
+}
 .quote {
     padding: 0px 100px;
     font-size: 20px;
@@ -102,11 +114,14 @@ ul {
     justify-content: center;
 }
 
+
+
 img {
-    width: 350px;
+    width: 350px; 
 }
 .middle-images img {
-    width: 150px;
+    width: 200px;
+    border-radius: 10px;
 }
 
 a {

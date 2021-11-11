@@ -7,12 +7,12 @@
 </head>
 <body>
     <div class="header">
-        <div class="header-logo">Logo</div>
+        <div class="header-logo"><img src="images/ocean_logo.png" alt="ocean logo"></div>
         <div>
             <ul>
-                <li><a href="google.com">link one</a></li>
-                <li><a href="google.com">link two</a></li>
-                <li><a href="google.com">link three</a></li>
+                <li><a href="https://www.mymauritius.travel/">Discover Mauritius</a></li>
+                <li><a href="https://www.theodinproject.com/home">TOP</a></li>
+                <li><a href="https://github.com/adrien-dimitri">About me</a></li>
             </ul>
         </div>  
 
@@ -21,18 +21,18 @@
     <div class="top">
         <div class="top-left">    
             <h1 class="top-primary">The Ocean</h1>
-            <p class="top-secondary">Whether you’re planning a beach trip with a group of non-surfers, 
-                or just looking for a way to enjoy the ocean on your non-surf day, are some ways to
-                make the most of your time at the ocean!
+            <p class="top-secondary">Whether you’re planning a beach trip with your family and friends, 
+                or just looking for a way to enjoy the ocean on your own, here are some ways to
+                make the most out of your time at the ocean!
             </p>
-            <button>Sign up</button>
+            <input type="button" value="Dive in!" onClick="document.getElementById('middle').scrollIntoView();" />
         </div>
         <div class="top-right">
             <img src="images/surfing.jpg" alt="man surfing">
         </div>        
     </div>
 
-    <div class="middle">
+    <div class="middle" id="middle">
         <div class="middle-text">
             <p class="middle-info">Some activies the ocean has to offer.</p>
         </div>
@@ -66,12 +66,11 @@
     <div class="action">
         <div class="action-text">
             <div class="action-title">Book a trip to Mauritius!</div>
-            <div class="action-para">As a mauritian, I invite you to my tropical paradise where you can do all the activies
-                mentioned and much more. So what are you waiting for? Book a flight now!!!
+            <div class="action-para">As a mauritian, I invite you to my tropical paradise. So what are you waiting for? Book a flight now!!!
             </div>
         </div>
         <div class="action-button">
-            <button>Book</button>
+            <button onclick="location.href='https://www.google.com/search?channel=fs&client=ubuntu&q=book+a+trip+to+mauritius'" type="button">Book</button>
         </div>
     </div>
 

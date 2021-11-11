@@ -24,3 +24,11 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
+
+img {
+    width: 150px;
+}
+
+.top {
+    display: flex;
+}
